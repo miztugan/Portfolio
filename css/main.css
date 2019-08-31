@@ -1,22 +1,25 @@
-.inner-circle {
+/* .inner-circle {
   border-radius: 50%;
   border: 5px solid white;
   position: relative;
 }
 
-.outer-circle {
+.border-circle {
   border-radius: 50%;
   border: 5px solid red;
-  height: 260px;
-  width: 260px;
-  position: absolute;
+  height: auto;
+  max-width: 100%;
 }
 
 .responsive {
   max-width: 100%;
   height: auto;
-}
+} */
 
 /* body {
   background-color: red;
 } */
+
+.main-header {
+  height: 100vh;
+}
