@@ -1,25 +1,59 @@
-/* .inner-circle {
-  border-radius: 50%;
-  border: 5px solid white;
-  position: relative;
+.fa-facebook {
+  color: #bdbdbd;
 }
 
-.border-circle {
-  border-radius: 50%;
-  border: 5px solid red;
-  height: auto;
-  max-width: 100%;
+.fa-linkedin {
+  color: #bdbdbd;
 }
 
-.responsive {
-  max-width: 100%;
-  height: auto;
-} */
+.fa-github {
+  color: #bdbdbd;
+}
 
-/* body {
-  background-color: red;
-} */
+.fa-facebook:hover {
+  color: #072361;
+}
+
+.fa-linkedin:hover {
+  color: #0077B5;
+}
+
+.fa-github:hover {
+  color: black;
+}
+
+.inner-circle {
+  border: 6px solid #bdbdbd;
+}
 
 .main-header {
+  background-color: lightblue;
   height: 100vh;
+}
+
+.outer-circle {
+  max-height: 245px;
+  max-width: 245px;
+  border-radius: 50%;
+  border: 7px solid transparent;
+}
+
+.outer-circle:hover {
+  max-height: 245px;
+  max-width: 245px;
+  border-radius: 50%;
+  border: 7px solid #536878;
+}
+
+.side-nav {
+  background-color: #536878;
+}
+
+.valign-wrapper {
+  min-height: 100px;
+}
+
+body {
+  background-color: #536878;
+  height: 1000px;
 }

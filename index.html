@@ -13,18 +13,81 @@
   <title>JB Ferrancullo</title>
 </head>
 <body>
-  <header class="main-header blue darken-2">
-    <nav class="transparent z-depth-2">
+  <header class="main-header">
+    <div class="navbar-fixed">
+      <nav class="z-depth-3" style="background: #536878;">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a class="brand-logo" href="">JON'S PORTFOLIO</a>
+            <a href="" class="button-collapse right" data-activates="side-nav">
+              <i class="material-icons">menu</i>
+            </a>
+            <ul class="hide-on-med-and-down right">
+              <li><a href="">About</a></li>
+              <li><a href="">My Works</a></li>
+              <li><a href="">Contact Me</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>  
+    </div>
+    <br>
+    <nav class="transparent z-depth-0">
       <div class="nav-wrapper">
-        <a href="#" class="brand-logo center">
-          <img src="img/mypix.jpg" class="responsive-img circle" style="width: 250px; border: 5px solid white; box-shadow: 10px 10px grey">
+        <a href="" class="brand-logo center">
+          <div class="outer-circle valign-wrapper center-align">
+            <img src="img/mypix.jpg" class="responsive-img circle inner-circle" style="max-width: 230px;">
+          </div>
         </a>
       </div>
     </nav>
+    <br>
+    <!-- Showcase -->
+    <div class="container center">
+        <h5>Welcome to Quazzu</h5>
+        <h1>Build For The Future</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius illo eveniet aliquid nostrum tempora id ex nisi incidunt quod eos?</p>
+      </div>
+    <ul class="side-nav" id="side-nav">
+        <li>
+          <div class="user-view">
+              <img src="img/mypix.jpg" class="responsive-img inner-circle circle" style="width: 150px; height: 150px; position: relative; left: 57px;">
+              <h5 class="center black-text">Jon Bon C. Ferrancullo</h5>
+          </div>
+        </li>
+        <li class="divider"></li>
+        <br>
+        <li class="center white-text"><a class="btn btn-small waves-effect waves light blue z-depth-0" href="">HOME</a></li>
+        <li class="center white-text"><a class="btn btn-small waves-effect waves light blue z-depth-0" href="">ABOUT</a></li>
+        <li class="center white-text"><a class="btn btn-small waves-effect waves light blue z-depth-0" href="">MY WORKS</a></li>
+        <li class="center white-text"><a class="btn btn-small waves-effect waves light blue z-depth-0" href="">CONTACTS</a></li>
+        <br>
+        <li class="divider"></li>
+        <br>
+        <li>
+          <ul class="row">
+            <h5 class="center black-text">Wish To Connect With Me?</h5>
+            <li class="col s3 m3 l3">
+              <a href="#https://facebook.com/JonBonCF!"><i class="fab fa-facebook fa-4x"></i></a>
+            </li>
+            <li class="col s3 m3 l3">
+              <a href="#https://github.com/miztugan!"><i class="fab fa-github fa-4x"></i></a>
+            </li>
+            <li class="col s3 m3 l3">
+                <a href="#https://linkedin.com!"><i class="fab fa-linkedin fa-4x"></i></a>
+              </li>
+          </ul>
+        </li>
+      </ul>
+    <!-- Showcase -->
   </header>
 
   <section>
-
+    <div class="container center">
+        <h5>Welcome to Quazzu</h5>
+        <h1>Build For The Future</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius illo eveniet aliquid nostrum tempora id ex nisi incidunt quod eos?</p>
+      </div>
   </section>
 
   <footer>
@@ -34,5 +97,11 @@
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      // Init Side Nav
+      $('.button-collapse').sideNav();
+    });
+  </script>
 </body>
 </html>
