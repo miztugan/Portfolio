@@ -22,12 +22,22 @@
   color: black;
 }
 
+.html-tag {
+  color: #36454f;
+}
+
+.html-tag-text {
+  color: #1565c0;
+}
+
 .inner-circle {
   border: 6px solid #bdbdbd;
 }
 
 .main-header {
-  background-color: lightblue;
+  background: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
   height: 100vh;
 }
 
@@ -55,5 +65,4 @@
 
 body {
   background-color: #536878;
-  height: 1000px;
 }
